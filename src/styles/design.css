@@ -1,0 +1,33 @@
+/*
+Design tokens for Attendance app
+Modify the CSS variables below to change colors, typography, and spacing throughout the UI.
+*/
+:root {
+  /* colors */
+  --color-primary: #3b82f6; /* blue-500 */
+  --color-accent: #f59e0b; /* amber-500 */
+  --color-bg: #ffffff;
+  --color-surface: #f3f4f6; /* gray-100 */
+  --color-error: #ef4444; /* red-500 */
+  --color-success: #10b981; /* green-500 */
+
+  /* typography */
+  --font-family-base: "Inter", "Roboto", sans-serif;
+  --font-size-h1: 2rem;
+  --font-size-h2: 1.5rem;
+  --font-size-body: 1rem;
+  --font-size-label: 0.875rem;
+
+  /* spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+}
+
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-body);
+  background-color: var(--color-bg);
+  color: #111827; /* gray-900 */
+}

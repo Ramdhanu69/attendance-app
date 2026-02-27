@@ -1,0 +1,24 @@
+{
+  "subjects": [
+    {
+      "id": "22e69180-a78b-4e8a-a27d-f03dd894307f",
+      "name": "maths",
+      "attended": 20,
+      "total": 22
+    },
+    {
+      "id": "d43e2b75-f694-4b5f-b010-36e0fd21e824",
+      "name": "DSA",
+      "attended": 21,
+      "total": 24
+    },
+    {
+      "id": "73b1e0c3-21ae-4209-a3c5-2d5c32d91da7",
+      "name": "Lab",
+      "attended": 11,
+      "total": 15
+    }
+  ],
+  "attendance": [],
+  "users": []
+}
