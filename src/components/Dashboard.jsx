@@ -66,9 +66,9 @@ export default function Dashboard() {
         {subjects.map(s => (
           <SubjectCircle key={s.id} subject={s} onClick={() => openEdit(s)} />
         ))}
-        <AddSubjectButton onClick={openNew} disabled={subjects.length >= 10} />
+        <AddSubjectButton onClick={openNew} disabled={subjects.length >= 15} />
       </div>
-      {subjects.length >= 10 && <p className="text-red-500 mt-4">Maximum of 10 subjects reached</p>}
+      {subjects.length >= 15 && <p className="text-red-500 mt-4">Maximum of 15 subjects reached</p>}
 
       {showModal && (
         <SubjectModal
